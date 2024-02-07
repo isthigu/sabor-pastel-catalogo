@@ -1,0 +1,32 @@
+.container{
+    color: white;
+    border-bottom: DOTTED 2px #f9ca24;
+    padding:15px 0;
+    display: flex;
+    justify-content: space-between;
+    }
+.container_produto_sabor{
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.produto{
+
+}
+.sabor{
+
+}
+.preco{
+    background-color: #f9ca24;
+    color: #2d2d2d;
+    padding: 5px;
+    border-radius: 5px 0 0 5px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
