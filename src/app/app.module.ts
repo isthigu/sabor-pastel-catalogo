@@ -7,6 +7,7 @@ import { CardComponent } from './card/card.component';
 import { MenuComponent } from './menu/menu.component';
 import { PhotoComponent } from './photo/photo.component';
 import { CardapioComponent } from './cardapio/cardapio.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { CardapioComponent } from './cardapio/cardapio.component';
     CardComponent,
     MenuComponent,
     PhotoComponent,
-    CardapioComponent
+    CardapioComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
