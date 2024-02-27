@@ -3,7 +3,7 @@
         <span class="produto">{{produto}}</span>
         <span class="sabor">{{sabor}}</span>
     </div>
-    <span class="preco">R$ {{preco}},00</span>
+    <span class="preco">{{preco == '' ? 'Disponível' : 'R$' + preco + ',00'}}</span>
 </div>
 
 
